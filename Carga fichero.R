@@ -5,3 +5,6 @@ colnames(muestra26)
 
 #El dataset tiene 3 columnas y 334085 filas.
 #La primera columna es un codigo, la segunda el nombre y la tercera el sexo.
+
+names(muestra26) = c("nif", "nombre", "genero")
+
