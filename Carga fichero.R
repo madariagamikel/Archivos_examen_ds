@@ -40,3 +40,5 @@ n_M = data.frame(table(mujeres$nombre))
 #imputacion de genero
 genero$genero_imp[genero$n_M>genero$n_V]="M"
 genero$genero_imp[genero$n_V>genero$n_M]="V"
+
+#ha hecho falta borrar los caracteres que sobraban por el merge de las dos ramas
